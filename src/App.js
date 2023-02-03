@@ -9,15 +9,15 @@ function App() {
     setCount(count + 1);
   };
   // we can create custom-styled components, so we can import them as components
-
-  const BlueButton = styled(Button)({
-    backgroundColor: "skyblue",
-    color: "#888",
+  // added custom theme from ThemeProvide ie., {theme}, with this we can create dark mode easily
+  const BlueButton = styled(Button)(({ theme }) => ({
+    backgroundColor: theme.palette.otherColor.main,
+    color: "#9e3aba",
     margin: 5,
     "&:hover": {
       backgroundColor: "aqua",
     },
-  });
+  }));
 
   return (
     <div>
@@ -73,7 +73,7 @@ function App() {
       <BlueButton>Blue</BlueButton>
       <BlueButton>Blue</BlueButton>
 
-      <Typography variant="h1" component="p">
+      <Typography variant="h1" component="p" color="secondary">
         It forwards h1 style on p-tag
       </Typography>
     </div>
