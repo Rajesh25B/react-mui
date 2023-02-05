@@ -42,9 +42,9 @@ export const Rightbar = () => {
     <Box
       sx={{ display: { xs: "none", sm: "block" } }} // added breakpoints
       flex={2}
-      p={2}
+      p={1}
     >
-      <Box position="fixed" width={180}>
+      <Box position="fixed" width={180} ml={6} mt={2}>
         <Typography variant="h6" fontWeight={100}>
           Online Branches
         </Typography>
@@ -90,7 +90,7 @@ export const Rightbar = () => {
           />
         </AvatarGroup>
         <Typography variant="h6" fontWeight={100} mt={2} mb={2}>
-          Latest Updates
+          Coffee Updates
         </Typography>
         <ImageList
           sx={{ width: 250, height: 250 }}

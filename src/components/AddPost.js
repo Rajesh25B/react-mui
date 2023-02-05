@@ -58,7 +58,14 @@ export const AddPost = () => {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box width={400} height={250} bgcolor="white" p={3} borderRadius={5}>
+        <Box
+          width={400}
+          height={250}
+          bgcolor={"background.default"}
+          color={"text.primary"}
+          p={3}
+          borderRadius={5}
+        >
           <Typography variant="h5" color="gray" textAlign="center">
             Create a coffee post
           </Typography>

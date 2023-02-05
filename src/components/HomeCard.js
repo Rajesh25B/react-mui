@@ -19,7 +19,7 @@ import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
 export default function HomeCard({ img, src, title }) {
   return (
     <Box>
-      <Card sx={{ margin: 5, bgcolor: "#e8faed" }}>
+      <Card>
         <CardHeader
           avatar={<Avatar aria-label="recipe" src={src}></Avatar>}
           action={

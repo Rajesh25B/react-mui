@@ -13,7 +13,7 @@ import BarChartIcon from "@mui/icons-material/BarChart";
 import NightsStayIcon from "@mui/icons-material/NightsStay";
 import Switch from "@mui/material/Switch";
 
-export function Sidebar() {
+export function Sidebar({ mode, setMode }) {
   return (
     <Box sx={{ display: { xs: "none", sm: "block" } }} flex={1}>
       <Box position="static">
@@ -24,37 +24,39 @@ export function Sidebar() {
             <ListItemIcon>
               <HomeIcon />
             </ListItemIcon>
-            <ListItemText primary="Homepage" />
+            <ListItemText primary="Products" />
           </ListItemButton>
           <ListItemButton>
             <ListItemIcon>
               <AnalyticsIcon />
             </ListItemIcon>
-            <ListItemText primary="Analytics" />
+            <ListItemText primary="Customers" />
           </ListItemButton>
           <ListItemButton>
             <ListItemIcon>
               <BarChartIcon />
             </ListItemIcon>
-            <ListItemText primary="Sales" />
+            <ListItemText primary="Transactions" />
           </ListItemButton>
           <ListItemButton>
             <ListItemIcon>
               <BalanceIcon />
             </ListItemIcon>
-            <ListItemText primary="Worksheets" />
+            <ListItemText primary="Breakdown" />
           </ListItemButton>
           <ListItemButton>
             <ListItemIcon>
               <AccountCircleIcon />
             </ListItemIcon>
-            <ListItemText primary="Profile" />
+            <ListItemText primary="Geography" />
           </ListItemButton>
           <ListItemButton>
             <ListItemIcon>
               <NightsStayIcon />
             </ListItemIcon>
-            <Switch />
+            <Switch
+              onChange={() => setMode(mode === "light" ? "dark" : "light")}
+            />
           </ListItemButton>
         </List>
       </Box>
