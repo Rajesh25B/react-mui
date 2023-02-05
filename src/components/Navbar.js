@@ -53,7 +53,7 @@ export const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <AppBar position="static">
+    <AppBar position="sticky">
       <CustomToolbar>
         <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
           Coffee Shop
