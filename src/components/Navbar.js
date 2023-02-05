@@ -55,7 +55,10 @@ export const Navbar = () => {
   return (
     <AppBar position="sticky">
       <CustomToolbar>
-        <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
+        <Typography
+          variant="h6"
+          sx={{ display: { xs: "none", sm: "block", md: "block" } }}
+        >
           Coffee Shop
         </Typography>
 

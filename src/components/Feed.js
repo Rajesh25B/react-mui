@@ -20,9 +20,7 @@ export function Feed() {
         src={
           "https://sites.google.com/site/tshistrocicalplaces/_/rsrc/1482968786174/kakatiya-kala-thoranam/warangal-e1422526175554.jpg"
         }
-        title={
-          "Spanish Cappuccino made with fine-grained roasted coffee beans."
-        }
+        title={"Coffee-Time-Tuesday"}
       />
     </Box>
   );
