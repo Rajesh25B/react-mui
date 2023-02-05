@@ -16,7 +16,7 @@ import Switch from "@mui/material/Switch";
 export function Sidebar() {
   return (
     <Box sx={{ display: { xs: "none", sm: "block" } }} flex={1}>
-      <Box position="fixed">
+      <Box position="static">
         {/* MUI  Lists (Cards) */}
 
         <List>

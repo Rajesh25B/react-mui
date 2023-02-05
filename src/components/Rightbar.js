@@ -102,36 +102,42 @@ export const Rightbar = () => {
             <img
               src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZmZlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
               loading="lazy"
+              alt="name"
             />
           </ImageListItem>
           <ImageListItem>
             <img
               src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNvZmZlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
               loading="lazy"
+              alt="name"
             />
           </ImageListItem>
           <ImageListItem>
             <img
               src="https://images.unsplash.com/photo-1606791405792-1004f1718d0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNvZmZlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
               loading="lazy"
+              alt="name"
             />
           </ImageListItem>
           <ImageListItem>
             <img
               src="https://images.unsplash.com/photo-1522992319-0365e5f11656?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvZmZlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
               loading="lazy"
+              alt="name"
             />
           </ImageListItem>
           <ImageListItem>
             <img
               src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZmZlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
               loading="lazy"
+              alt="name"
             />
           </ImageListItem>
           <ImageListItem>
             <img
               src="https://images.unsplash.com/photo-1610632380989-680fe40816c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGNvZmZlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
               loading="lazy"
+              alt="name"
             />
           </ImageListItem>
         </ImageList>
